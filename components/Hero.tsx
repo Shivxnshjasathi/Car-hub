@@ -1,9 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import CustomButton from "./CustomButton";
 
-
+import { CustomButton } from "@components";
 
 const Hero = () => {
   const handleScroll = () => {
@@ -18,16 +17,15 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Find, book, rent a car—quick and super easy!
+        Where Every Car Tells a Story !!
         </h1>
 
         <p className="hero__subtitle">
-          Streamline your car rental experience with our effortless booking
-          process.
+        Explore Car Details Like Never Before
         </p>
 
         <CustomButton
-          title="Explore Cars"
+          title="See Cars"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}
         />
